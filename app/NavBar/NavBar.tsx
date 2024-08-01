@@ -7,7 +7,7 @@ import TwitterLogo from "../../public/logo.svg";
 const NavBar = () => {
   return (
     <>
-      <header className="absolute top-4 flex h-[85%] min-h-[80%] min-w-4 flex-col bg-black sm:left-0 sm:w-36 md:left-72 md:w-96 lg:left-0 lg:w-24 lg:text-2xl xl:left-72 xl:w-96">
+      <header className="absolute top-4 flex h-[85%] min-h-[80%] min-w-4 flex-col bg-black sm:left-0 sm:w-36 md:left-72 md:w-96 lg:left-0 lg:w-24 lg:text-2toxl xl:left-72 xl:w-96">
         <ul className="flex flex-col justify-center">
           <div className="logo ml-[0.6rem] h-8 w-8 pb-16 text-white xl:pl-0">
             <Image src={TwitterLogo} alt="Logo" />
