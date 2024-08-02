@@ -1,0 +1,17 @@
+.onHover:hover {
+  border-radius: 4rem;
+  animation: hoverFade 200ms ease-in-out forwards;
+  cursor: pointer;
+}
+
+@keyframes hoverFade {
+  0% {
+  background-color : initial
+  }
+
+  100% {
+    background-color : rgba(105, 105, 105, 0.272)
+  }
+
+}
+
